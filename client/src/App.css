@@ -1,0 +1,117 @@
+body {
+  background-color: black;
+}
+.App {
+  text-align: center;
+}
+.usdDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  align-content: center;
+  margin-top: -20px;
+  margin-right: 30px;
+  margin-left: 100px;
+  margin-bottom: 5px;
+}
+.usdPoint {
+  border-radius: 50%;
+  color: #00ddff;
+  background-color: #00ddff;
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
+}
+.usd {
+  color: #00ddff;
+  font-size: 15px;
+  font-family: 'Chathura', sans-serif;
+  font-size: 25px;
+}
+.navbar {
+  background-color: rgb(0, 0, 0);
+  color: #00ddff;
+  border-bottom: 1px solid #00ddff;
+  -webkit-box-shadow: 16px 8px 30px -10px rgba(0, 221, 255, 0.2);
+  -moz-box-shadow: 16px 8px 30px -10px rgba(0, 221, 255, 0.2);
+  box-shadow: 16px 8px 30px -10px rgba(0, 221, 255, 0.2);
+}
+.ValueChart {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.dashBoard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Chathura', sans-serif;
+  font-size: 25px;
+}
+.pieCharts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.pFromChart {
+  margin: 5px 0 5px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  color: #00ddff;
+  font-family: 'Chathura', sans-serif;
+  font-size: 35px;
+}
+.nameWithLogo  {
+  color: #05bcd8;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Chathura', sans-serif;
+  font-size: 40px;
+}
+.brand {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.PieChart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Chathura', sans-serif;
+  font-size: 25px;
+}
+.label,
+.desc {
+  color: white;
+  font-family: 'Chathura', sans-serif;
+  font-size: 30px;
+  padding: 1px;
+}
+.NavbarBrand {
+  display: flex;
+}
+.AreaChart {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
